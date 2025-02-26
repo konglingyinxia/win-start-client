@@ -84,7 +84,8 @@
     - Windows:10,11,12
     - Windows server 2016 及更高版本
     - linux及相关发行版
-
+- **命令参数**:
+    - 版本：-v, --version
 - **项目截图**:
     - 启动
 
