@@ -89,7 +89,7 @@ func startWindow() {
 			api.NewCommManager(),
 		},
 		Linux: &linux.Options{
-			Icon: icon,
+			Icon: pngIcon,
 		},
 		Windows: &windows.Options{
 			WebviewBrowserPath: utils.WebviewQuery(),
