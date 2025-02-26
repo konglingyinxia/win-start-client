@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+.el-header {
+    --el-header-padding: 0 0px;
+    --el-header-height: 40px;
+    height: 40px;
+}
+.log-drawer-header-cls {
+  display: flex;
+  justify-content: space-between;
+}
+#app {
+    height: 100vh;
+    text-align: center;
+}
